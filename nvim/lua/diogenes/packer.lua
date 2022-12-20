@@ -67,12 +67,17 @@ return require('packer').startup(function(use)
     -- html autopairs
     use 'windwp/nvim-ts-autotag'
 
-    -- colorizer
-    use 'norcalli/nvim-colorizer.lua'
-
     -- git
     use 'dinhhuy258/git.nvim'
 
     -- devicons
     use 'nvim-tree/nvim-web-devicons'
+
+    -- git
+    use 'lewis6991/gitsigns.nvim'
+
+    -- colorizer
+    use 'norcalli/nvim-colorizer.lua'
+    require'colorizer'.setup()
+
 end)
