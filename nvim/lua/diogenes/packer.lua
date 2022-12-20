@@ -1,5 +1,4 @@
 vim.cmd [[packadd packer.nvim]]
-
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
@@ -74,4 +73,6 @@ return require('packer').startup(function(use)
     -- git
     use 'dinhhuy258/git.nvim'
 
+    -- devicons
+    use 'nvim-tree/nvim-web-devicons'
 end)
