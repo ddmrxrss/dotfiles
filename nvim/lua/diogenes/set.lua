@@ -23,3 +23,5 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
 vim.opt.backspace = "indent,eol,start"
+
+vim.opt.guifont = { "JetBrains Mono", ":h18" }
