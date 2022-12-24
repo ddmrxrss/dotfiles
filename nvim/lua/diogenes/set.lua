@@ -29,4 +29,6 @@ vim.opt.backspace = "indent,eol,start"
 
 vim.opt.guifont = { "JetBrains Mono", ":h18" }
 
+vim.opt.guicursor = ""
+
 vim.g.neovide_transparency = 0.8
