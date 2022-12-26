@@ -46,12 +46,6 @@ return require('packer').startup(function(use)
     -- lspkind nvim 
     use 'onsails/lspkind.nvim'
 
-    -- lualine
-    use {
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
-
     -- lspsaga
     use {
         "glepnir/lspsaga.nvim",
@@ -79,5 +73,8 @@ return require('packer').startup(function(use)
     -- colorizer
     use 'norcalli/nvim-colorizer.lua'
     require'colorizer'.setup()
+
+    -- zen mode
+    use 'folke/zen-mode.nvim'
 
 end)
