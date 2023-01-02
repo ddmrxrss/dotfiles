@@ -7,7 +7,7 @@
 static const char *upvol[]   = { "/usr/bin/pactl", "set-sink-volume", "0", "+5%",     NULL };
 static const char *downvol[] = { "/usr/bin/pactl", "set-sink-volume", "0", "-5%",     NULL };
 static const char *mutevol[] = { "/usr/bin/pactl", "set-sink-mute",   "0", "toggle",  NULL };
-static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int gappx     = 7;        /* gaps between windows */
 static const unsigned int snap      = 15;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
@@ -15,21 +15,18 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int vertpad            = 4;       /* vertical padding of bar */
 static const int sidepad            = 8;       /* horizontal padding of bar */
 
-
-
-
 static const char *fonts[]          = {"JetBrains Mono:size=16"};
 static const char dmenufont[]       = "Fantasque Sans Mono:style=Regular:size=12";
 
 static const int horizpadbar = 3; /* horizontal padding for statusbar */
 static const int vertpadbar  = 5; /* vertical padding for statusbar */
 
-static char normbgcolor[]           = "#1e1e2e";
-static char normbordercolor[]       = "#89dceb";
-static char normfgcolor[]           = "#cdd6f4";
-static char selfgcolor[]            = "#cdd6f4";
-static char selbordercolor[]        = "#89dceb";
-static char selbgcolor[]            = "#313244";
+static char normbgcolor[]           = "#E18AD4";
+static char selbgcolor[]            = "#EEB1D5";
+static char normfgcolor[]           = "#1e1e2e";
+static char selfgcolor[]            = "#1e1e2e";
+static char normbordercolor[]       = "#E18AD4";
+static char selbordercolor[]        = "#E0EFDA";
 static char termcol0[] = "#000000"; /* black   */
 static char termcol1[] = "#ff0000"; /* red     */
 static char termcol2[] = "#33ff00"; /* green   */
