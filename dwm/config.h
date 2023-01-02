@@ -21,11 +21,11 @@ static const char dmenufont[]       = "Fantasque Sans Mono:style=Regular:size=12
 static const int horizpadbar = 3; /* horizontal padding for statusbar */
 static const int vertpadbar  = 5; /* vertical padding for statusbar */
 
-static char normbgcolor[]           = "#E18AD4";
+static char normbgcolor[]           = "#EEB1D5";
 static char selbgcolor[]            = "#EEB1D5";
 static char normfgcolor[]           = "#1e1e2e";
 static char selfgcolor[]            = "#1e1e2e";
-static char normbordercolor[]       = "#E18AD4";
+static char normbordercolor[]       = "#D782BA";
 static char selbordercolor[]        = "#E0EFDA";
 static char termcol0[] = "#000000"; /* black   */
 static char termcol1[] = "#ff0000"; /* red     */
