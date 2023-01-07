@@ -77,4 +77,7 @@ return require('packer').startup(function(use)
     -- zen mode
     use 'folke/zen-mode.nvim'
 
+    -- lua line
+    use 'nvim-lualine/lualine.nvim'
+
 end)
