@@ -80,4 +80,11 @@ return require('packer').startup(function(use)
     -- lua line
     use 'nvim-lualine/lualine.nvim'
 
+    -- alpha
+    use 'goolord/alpha-nvim'
+
+    -- jdtls
+    use 'mfussenegger/nvim-jdtls'
+
 end)
+

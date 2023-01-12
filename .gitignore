@@ -2,8 +2,5 @@
 !/.gitignore
 !/nvim
 !/kitty
-!/awesome
-!/rofi
-!/picom
-!/dwm
-!/dwmblocks
+!/hypr
+!/waybar
