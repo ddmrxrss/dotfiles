@@ -38,4 +38,3 @@ vim.opt.clipboard = ""
 vim.g.neovide_transparency = 0.8
 
 vim.opt.showmode = false
-
