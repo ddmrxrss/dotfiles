@@ -27,7 +27,7 @@ vim.opt.smartcase = true
 
 vim.opt.backspace = "indent,eol,start"
 
-vim.opt.guifont = { "JetBrains Mono", ":h18" }
+vim.opt.guifont = { "JetBrains Mono 22" }
 
 vim.opt.guicursor = ""
 
