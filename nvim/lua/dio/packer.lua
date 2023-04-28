@@ -35,9 +35,17 @@ return require('packer').startup(function(use)
 
 	-- catppuccin
 	use { "catppuccin/nvim", as = "catppuccin", config = function ()
-			vim.cmd("colorscheme catppuccin-mocha")
+        --		vim.cmd("colorscheme catppuccin-mocha")
 		end
 	}
+
+    -- tokyo-night
+    use 'folke/tokyonight.nvim'
+
+    -- rose-pine
+    use({ 'rose-pine/neovim', as = 'rose-pine' })
+
+    vim.cmd('colorscheme rose-pine')
 
 	-- treesitter
 	use {'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
